@@ -49,8 +49,8 @@ nav a:hover {
 }
 
 .intro .container {
-  width: inherit;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
 }
