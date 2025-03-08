@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tola - Pro Logo Designer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      data-n-head="ssr"
+      rel="icon"
+      type="image/x-icon"
+      href="../images/logo_1.png"
+    />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <a href="../index.html" class="logo">
+        <img src="../images/logo.png" alt="Brightest Media Logo" />
+      </a>
+      <nav>
+        <a href="../index.html#portfolio">Projects</a>
+        <a href="../index.html#home">About</a>
+      </nav>
+    </header>
+    <h2 id="subhead">Flyer Designs</h2>
+
+    <section class="portfolio" id="portfolio">
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+      <img src="../images/portfolio_image1.jpg" alt="" id="display" />
+    </section>
+    <div id="imageModal" class="modal" style="display: none">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="" alt="" />
+      <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+      <button class="next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+    <footer class="footer">
+      <div class="contact">
+        <h3>Brightest Media</h3>
+        <p>
+          Contact: +234 704 502 9396
+          <a href="mailto:azeezabass@gmail.com">azeezabass@gmail.com</a>
+        </p>
+      </div>
+      <div class="address">
+        <h3>Address</h3>
+        <p>15/16 Alh. Obelawo Shopping Complex, Ogbomoso, Oyo State, Nigeria</p>
+      </div>
+      <div class="media">
+        <h3>Social Media</h3>
+        <p>
+          Follow us:<br />
+          <a href="https://www.instagram.com/brightestmedia">Instagram</a>
+          <br />
+          <a href="https://www.fb.com/brightestmedia">Facebook</a> <br />
+          <a href="https://www.twitter.com/brightestmedia">Twitter</a>
+        </p>
+      </div>
+      <a href="#home" class="scroll-link">Scroll to Top</a>
+    </footer>
+  </body>
+</html>
